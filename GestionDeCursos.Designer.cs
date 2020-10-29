@@ -111,7 +111,7 @@
             // txtFechaVigenciaCurso
             // 
             this.txtFechaVigenciaCurso.Location = new System.Drawing.Point(143, 124);
-            this.txtFechaVigenciaCurso.Mask = "__/__/____";
+            this.txtFechaVigenciaCurso.Mask = "00/00/0000";
             this.txtFechaVigenciaCurso.Name = "txtFechaVigenciaCurso";
             this.txtFechaVigenciaCurso.Size = new System.Drawing.Size(182, 25);
             this.txtFechaVigenciaCurso.TabIndex = 3;
@@ -250,7 +250,7 @@
             // txtFechaVigenciaCurso2
             // 
             this.txtFechaVigenciaCurso2.Location = new System.Drawing.Point(135, 194);
-            this.txtFechaVigenciaCurso2.Mask = "__/__/____";
+            this.txtFechaVigenciaCurso2.Mask = "00/00/0000";
             this.txtFechaVigenciaCurso2.Name = "txtFechaVigenciaCurso2";
             this.txtFechaVigenciaCurso2.Size = new System.Drawing.Size(182, 23);
             this.txtFechaVigenciaCurso2.TabIndex = 3;

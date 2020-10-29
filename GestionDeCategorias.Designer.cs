@@ -28,7 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabInsertarCategoria = new System.Windows.Forms.TabPage();
+            this.btnInsertarCategoria = new System.Windows.Forms.Button();
+            this.lblBorradoCategoria = new System.Windows.Forms.Label();
+            this.txtBorradoCategoria = new System.Windows.Forms.TextBox();
+            this.lblIdCategoria = new System.Windows.Forms.Label();
+            this.txtIdCategoria = new System.Windows.Forms.TextBox();
+            this.lblNombreCategoria = new System.Windows.Forms.Label();
+            this.txtDescripcionCategoria = new System.Windows.Forms.TextBox();
+            this.lblDescripcionCategoria = new System.Windows.Forms.Label();
+            this.txtNombreCategoria = new System.Windows.Forms.TextBox();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -42,7 +51,18 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tabUpdateCategoria = new System.Windows.Forms.TabPage();
+            this.btnActualizarCategoria = new System.Windows.Forms.Button();
+            this.btnEliminarCategoria = new System.Windows.Forms.Button();
+            this.txtNombreCategoria2 = new System.Windows.Forms.TextBox();
+            this.lblDescripcionCategoria2 = new System.Windows.Forms.Label();
+            this.btnConsultarCategoria = new System.Windows.Forms.Button();
+            this.txtDescripcionCategoria2 = new System.Windows.Forms.TextBox();
+            this.lblIdCategoria2 = new System.Windows.Forms.Label();
+            this.lblNombreCategoria2 = new System.Windows.Forms.Label();
+            this.txtIdCategoria2 = new System.Windows.Forms.TextBox();
+            this.txtBorradoCategoria2 = new System.Windows.Forms.TextBox();
+            this.lblBorradoCategoria2 = new System.Windows.Forms.Label();
             this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -58,65 +78,123 @@
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.tabConsultarCategoria = new System.Windows.Forms.TabPage();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.btnConsultarCategoria2 = new System.Windows.Forms.Button();
+            this.btnVerTodasCategorias = new System.Windows.Forms.Button();
+            this.lblIdCategoria3 = new System.Windows.Forms.Label();
+            this.txtIdCategoria3 = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.txtDescripcionCategoria = new System.Windows.Forms.TextBox();
-            this.txtNombreCategoria = new System.Windows.Forms.TextBox();
-            this.txtIdCategoria = new System.Windows.Forms.TextBox();
-            this.lblDescripcionCategoria = new System.Windows.Forms.Label();
-            this.lblNombreCategoria = new System.Windows.Forms.Label();
-            this.lblIdCategoria = new System.Windows.Forms.Label();
-            this.txtBorradoCategoria = new System.Windows.Forms.TextBox();
-            this.lblBorradoCategoria = new System.Windows.Forms.Label();
-            this.btnInsertarCategoria = new System.Windows.Forms.Button();
-            this.txtIdCategoria2 = new System.Windows.Forms.TextBox();
-            this.lblIdCategoria2 = new System.Windows.Forms.Label();
-            this.btnConsultarCategoria = new System.Windows.Forms.Button();
-            this.lblBorradoCategoria2 = new System.Windows.Forms.Label();
-            this.txtBorradoCategoria2 = new System.Windows.Forms.TextBox();
-            this.lblNombreCategoria2 = new System.Windows.Forms.Label();
-            this.txtDescripcionCategoria2 = new System.Windows.Forms.TextBox();
-            this.lblDescripcionCategoria2 = new System.Windows.Forms.Label();
-            this.txtNombreCategoria2 = new System.Windows.Forms.TextBox();
-            this.btnEliminarCategoria = new System.Windows.Forms.Button();
-            this.btnActualizarCategoria = new System.Windows.Forms.Button();
-            this.txtIdCategoria3 = new System.Windows.Forms.TextBox();
-            this.lblIdCategoria3 = new System.Windows.Forms.Label();
-            this.btnVerTodasCategorias = new System.Windows.Forms.Button();
-            this.btnConsultarCategoria2 = new System.Windows.Forms.Button();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            this.tabPage3.SuspendLayout();
+            this.tabInsertarCategoria.SuspendLayout();
+            this.tabUpdateCategoria.SuspendLayout();
+            this.tabConsultarCategoria.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
-            // tabPage1
+            // tabInsertarCategoria
             // 
-            this.tabPage1.Controls.Add(this.btnInsertarCategoria);
-            this.tabPage1.Controls.Add(this.lblBorradoCategoria);
-            this.tabPage1.Controls.Add(this.txtBorradoCategoria);
-            this.tabPage1.Controls.Add(this.lblIdCategoria);
-            this.tabPage1.Controls.Add(this.txtIdCategoria);
-            this.tabPage1.Controls.Add(this.lblNombreCategoria);
-            this.tabPage1.Controls.Add(this.txtDescripcionCategoria);
-            this.tabPage1.Controls.Add(this.lblDescripcionCategoria);
-            this.tabPage1.Controls.Add(this.txtNombreCategoria);
-            this.tabPage1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.tabPage1.Location = new System.Drawing.Point(4, 24);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(483, 358);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Insertar categoria";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            this.tabInsertarCategoria.Controls.Add(this.btnInsertarCategoria);
+            this.tabInsertarCategoria.Controls.Add(this.lblBorradoCategoria);
+            this.tabInsertarCategoria.Controls.Add(this.txtBorradoCategoria);
+            this.tabInsertarCategoria.Controls.Add(this.lblIdCategoria);
+            this.tabInsertarCategoria.Controls.Add(this.txtIdCategoria);
+            this.tabInsertarCategoria.Controls.Add(this.lblNombreCategoria);
+            this.tabInsertarCategoria.Controls.Add(this.txtDescripcionCategoria);
+            this.tabInsertarCategoria.Controls.Add(this.lblDescripcionCategoria);
+            this.tabInsertarCategoria.Controls.Add(this.txtNombreCategoria);
+            this.tabInsertarCategoria.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.tabInsertarCategoria.Location = new System.Drawing.Point(4, 24);
+            this.tabInsertarCategoria.Name = "tabInsertarCategoria";
+            this.tabInsertarCategoria.Padding = new System.Windows.Forms.Padding(3);
+            this.tabInsertarCategoria.Size = new System.Drawing.Size(483, 358);
+            this.tabInsertarCategoria.TabIndex = 0;
+            this.tabInsertarCategoria.Text = "Insertar categoria";
+            this.tabInsertarCategoria.UseVisualStyleBackColor = true;
+            // 
+            // btnInsertarCategoria
+            // 
+            this.btnInsertarCategoria.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnInsertarCategoria.Location = new System.Drawing.Point(192, 218);
+            this.btnInsertarCategoria.Name = "btnInsertarCategoria";
+            this.btnInsertarCategoria.Size = new System.Drawing.Size(80, 30);
+            this.btnInsertarCategoria.TabIndex = 2;
+            this.btnInsertarCategoria.Text = "Insertar";
+            this.btnInsertarCategoria.UseVisualStyleBackColor = true;
+            // 
+            // lblBorradoCategoria
+            // 
+            this.lblBorradoCategoria.AutoSize = true;
+            this.lblBorradoCategoria.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblBorradoCategoria.Location = new System.Drawing.Point(55, 180);
+            this.lblBorradoCategoria.Name = "lblBorradoCategoria";
+            this.lblBorradoCategoria.Size = new System.Drawing.Size(61, 17);
+            this.lblBorradoCategoria.TabIndex = 0;
+            this.lblBorradoCategoria.Text = "Borrado:";
+            // 
+            // txtBorradoCategoria
+            // 
+            this.txtBorradoCategoria.Location = new System.Drawing.Point(148, 177);
+            this.txtBorradoCategoria.Name = "txtBorradoCategoria";
+            this.txtBorradoCategoria.Size = new System.Drawing.Size(182, 25);
+            this.txtBorradoCategoria.TabIndex = 1;
+            // 
+            // lblIdCategoria
+            // 
+            this.lblIdCategoria.AutoSize = true;
+            this.lblIdCategoria.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblIdCategoria.Location = new System.Drawing.Point(29, 24);
+            this.lblIdCategoria.Name = "lblIdCategoria";
+            this.lblIdCategoria.Size = new System.Drawing.Size(86, 17);
+            this.lblIdCategoria.TabIndex = 0;
+            this.lblIdCategoria.Text = "Id_categoria:";
+            // 
+            // txtIdCategoria
+            // 
+            this.txtIdCategoria.Location = new System.Drawing.Point(148, 21);
+            this.txtIdCategoria.Name = "txtIdCategoria";
+            this.txtIdCategoria.Size = new System.Drawing.Size(182, 25);
+            this.txtIdCategoria.TabIndex = 1;
+            // 
+            // lblNombreCategoria
+            // 
+            this.lblNombreCategoria.AutoSize = true;
+            this.lblNombreCategoria.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblNombreCategoria.Location = new System.Drawing.Point(53, 76);
+            this.lblNombreCategoria.Name = "lblNombreCategoria";
+            this.lblNombreCategoria.Size = new System.Drawing.Size(62, 17);
+            this.lblNombreCategoria.TabIndex = 0;
+            this.lblNombreCategoria.Text = "Nombre:";
+            // 
+            // txtDescripcionCategoria
+            // 
+            this.txtDescripcionCategoria.Location = new System.Drawing.Point(148, 125);
+            this.txtDescripcionCategoria.Name = "txtDescripcionCategoria";
+            this.txtDescripcionCategoria.Size = new System.Drawing.Size(182, 25);
+            this.txtDescripcionCategoria.TabIndex = 1;
+            // 
+            // lblDescripcionCategoria
+            // 
+            this.lblDescripcionCategoria.AutoSize = true;
+            this.lblDescripcionCategoria.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblDescripcionCategoria.Location = new System.Drawing.Point(32, 128);
+            this.lblDescripcionCategoria.Name = "lblDescripcionCategoria";
+            this.lblDescripcionCategoria.Size = new System.Drawing.Size(84, 17);
+            this.lblDescripcionCategoria.TabIndex = 0;
+            this.lblDescripcionCategoria.Text = "Descripcion:";
+            // 
+            // txtNombreCategoria
+            // 
+            this.txtNombreCategoria.Location = new System.Drawing.Point(148, 73);
+            this.txtNombreCategoria.Name = "txtNombreCategoria";
+            this.txtNombreCategoria.Size = new System.Drawing.Size(182, 25);
+            this.txtNombreCategoria.TabIndex = 1;
             // 
             // maskedTextBox1
             // 
@@ -232,26 +310,124 @@
             this.label6.TabIndex = 0;
             this.label6.Text = "Id_curso:";
             // 
-            // tabPage2
+            // tabUpdateCategoria
             // 
-            this.tabPage2.Controls.Add(this.btnActualizarCategoria);
-            this.tabPage2.Controls.Add(this.btnEliminarCategoria);
-            this.tabPage2.Controls.Add(this.txtNombreCategoria2);
-            this.tabPage2.Controls.Add(this.lblDescripcionCategoria2);
-            this.tabPage2.Controls.Add(this.btnConsultarCategoria);
-            this.tabPage2.Controls.Add(this.txtDescripcionCategoria2);
-            this.tabPage2.Controls.Add(this.lblIdCategoria2);
-            this.tabPage2.Controls.Add(this.lblNombreCategoria2);
-            this.tabPage2.Controls.Add(this.txtIdCategoria2);
-            this.tabPage2.Controls.Add(this.txtBorradoCategoria2);
-            this.tabPage2.Controls.Add(this.lblBorradoCategoria2);
-            this.tabPage2.Location = new System.Drawing.Point(4, 24);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(483, 358);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Actualizar/eliminar categoria";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.tabUpdateCategoria.Controls.Add(this.btnActualizarCategoria);
+            this.tabUpdateCategoria.Controls.Add(this.btnEliminarCategoria);
+            this.tabUpdateCategoria.Controls.Add(this.txtNombreCategoria2);
+            this.tabUpdateCategoria.Controls.Add(this.lblDescripcionCategoria2);
+            this.tabUpdateCategoria.Controls.Add(this.btnConsultarCategoria);
+            this.tabUpdateCategoria.Controls.Add(this.txtDescripcionCategoria2);
+            this.tabUpdateCategoria.Controls.Add(this.lblIdCategoria2);
+            this.tabUpdateCategoria.Controls.Add(this.lblNombreCategoria2);
+            this.tabUpdateCategoria.Controls.Add(this.txtIdCategoria2);
+            this.tabUpdateCategoria.Controls.Add(this.txtBorradoCategoria2);
+            this.tabUpdateCategoria.Controls.Add(this.lblBorradoCategoria2);
+            this.tabUpdateCategoria.Location = new System.Drawing.Point(4, 24);
+            this.tabUpdateCategoria.Name = "tabUpdateCategoria";
+            this.tabUpdateCategoria.Padding = new System.Windows.Forms.Padding(3);
+            this.tabUpdateCategoria.Size = new System.Drawing.Size(483, 358);
+            this.tabUpdateCategoria.TabIndex = 1;
+            this.tabUpdateCategoria.Text = "Actualizar/eliminar categoria";
+            this.tabUpdateCategoria.UseVisualStyleBackColor = true;
+            // 
+            // btnActualizarCategoria
+            // 
+            this.btnActualizarCategoria.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnActualizarCategoria.Location = new System.Drawing.Point(152, 252);
+            this.btnActualizarCategoria.Name = "btnActualizarCategoria";
+            this.btnActualizarCategoria.Size = new System.Drawing.Size(80, 30);
+            this.btnActualizarCategoria.TabIndex = 3;
+            this.btnActualizarCategoria.Text = "Actualizar";
+            this.btnActualizarCategoria.UseVisualStyleBackColor = true;
+            // 
+            // btnEliminarCategoria
+            // 
+            this.btnEliminarCategoria.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnEliminarCategoria.Location = new System.Drawing.Point(254, 252);
+            this.btnEliminarCategoria.Name = "btnEliminarCategoria";
+            this.btnEliminarCategoria.Size = new System.Drawing.Size(80, 30);
+            this.btnEliminarCategoria.TabIndex = 3;
+            this.btnEliminarCategoria.Text = "Eliminar";
+            this.btnEliminarCategoria.UseVisualStyleBackColor = true;
+            // 
+            // txtNombreCategoria2
+            // 
+            this.txtNombreCategoria2.Location = new System.Drawing.Point(152, 110);
+            this.txtNombreCategoria2.Name = "txtNombreCategoria2";
+            this.txtNombreCategoria2.Size = new System.Drawing.Size(182, 23);
+            this.txtNombreCategoria2.TabIndex = 1;
+            // 
+            // lblDescripcionCategoria2
+            // 
+            this.lblDescripcionCategoria2.AutoSize = true;
+            this.lblDescripcionCategoria2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblDescripcionCategoria2.Location = new System.Drawing.Point(36, 165);
+            this.lblDescripcionCategoria2.Name = "lblDescripcionCategoria2";
+            this.lblDescripcionCategoria2.Size = new System.Drawing.Size(84, 17);
+            this.lblDescripcionCategoria2.TabIndex = 0;
+            this.lblDescripcionCategoria2.Text = "Descripcion:";
+            // 
+            // btnConsultarCategoria
+            // 
+            this.btnConsultarCategoria.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnConsultarCategoria.Location = new System.Drawing.Point(203, 64);
+            this.btnConsultarCategoria.Name = "btnConsultarCategoria";
+            this.btnConsultarCategoria.Size = new System.Drawing.Size(80, 30);
+            this.btnConsultarCategoria.TabIndex = 2;
+            this.btnConsultarCategoria.Text = "Consultar";
+            this.btnConsultarCategoria.UseVisualStyleBackColor = true;
+            // 
+            // txtDescripcionCategoria2
+            // 
+            this.txtDescripcionCategoria2.Location = new System.Drawing.Point(152, 162);
+            this.txtDescripcionCategoria2.Name = "txtDescripcionCategoria2";
+            this.txtDescripcionCategoria2.Size = new System.Drawing.Size(182, 23);
+            this.txtDescripcionCategoria2.TabIndex = 1;
+            // 
+            // lblIdCategoria2
+            // 
+            this.lblIdCategoria2.AutoSize = true;
+            this.lblIdCategoria2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblIdCategoria2.Location = new System.Drawing.Point(33, 29);
+            this.lblIdCategoria2.Name = "lblIdCategoria2";
+            this.lblIdCategoria2.Size = new System.Drawing.Size(86, 17);
+            this.lblIdCategoria2.TabIndex = 0;
+            this.lblIdCategoria2.Text = "Id_categoria:";
+            // 
+            // lblNombreCategoria2
+            // 
+            this.lblNombreCategoria2.AutoSize = true;
+            this.lblNombreCategoria2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblNombreCategoria2.Location = new System.Drawing.Point(57, 113);
+            this.lblNombreCategoria2.Name = "lblNombreCategoria2";
+            this.lblNombreCategoria2.Size = new System.Drawing.Size(62, 17);
+            this.lblNombreCategoria2.TabIndex = 0;
+            this.lblNombreCategoria2.Text = "Nombre:";
+            // 
+            // txtIdCategoria2
+            // 
+            this.txtIdCategoria2.Location = new System.Drawing.Point(152, 26);
+            this.txtIdCategoria2.Name = "txtIdCategoria2";
+            this.txtIdCategoria2.Size = new System.Drawing.Size(182, 23);
+            this.txtIdCategoria2.TabIndex = 1;
+            // 
+            // txtBorradoCategoria2
+            // 
+            this.txtBorradoCategoria2.Location = new System.Drawing.Point(152, 214);
+            this.txtBorradoCategoria2.Name = "txtBorradoCategoria2";
+            this.txtBorradoCategoria2.Size = new System.Drawing.Size(182, 23);
+            this.txtBorradoCategoria2.TabIndex = 1;
+            // 
+            // lblBorradoCategoria2
+            // 
+            this.lblBorradoCategoria2.AutoSize = true;
+            this.lblBorradoCategoria2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblBorradoCategoria2.Location = new System.Drawing.Point(59, 217);
+            this.lblBorradoCategoria2.Name = "lblBorradoCategoria2";
+            this.lblBorradoCategoria2.Size = new System.Drawing.Size(61, 17);
+            this.lblBorradoCategoria2.TabIndex = 0;
+            this.lblBorradoCategoria2.Text = "Borrado:";
             // 
             // maskedTextBox2
             // 
@@ -387,20 +563,66 @@
             this.textBox10.Size = new System.Drawing.Size(182, 23);
             this.textBox10.TabIndex = 1;
             // 
-            // tabPage3
+            // tabConsultarCategoria
             // 
-            this.tabPage3.Controls.Add(this.dataGridView2);
-            this.tabPage3.Controls.Add(this.btnConsultarCategoria2);
-            this.tabPage3.Controls.Add(this.btnVerTodasCategorias);
-            this.tabPage3.Controls.Add(this.lblIdCategoria3);
-            this.tabPage3.Controls.Add(this.txtIdCategoria3);
-            this.tabPage3.Location = new System.Drawing.Point(4, 24);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(483, 358);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Consultar categoria";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            this.tabConsultarCategoria.Controls.Add(this.dataGridView2);
+            this.tabConsultarCategoria.Controls.Add(this.btnConsultarCategoria2);
+            this.tabConsultarCategoria.Controls.Add(this.btnVerTodasCategorias);
+            this.tabConsultarCategoria.Controls.Add(this.lblIdCategoria3);
+            this.tabConsultarCategoria.Controls.Add(this.txtIdCategoria3);
+            this.tabConsultarCategoria.Location = new System.Drawing.Point(4, 24);
+            this.tabConsultarCategoria.Name = "tabConsultarCategoria";
+            this.tabConsultarCategoria.Padding = new System.Windows.Forms.Padding(3);
+            this.tabConsultarCategoria.Size = new System.Drawing.Size(483, 358);
+            this.tabConsultarCategoria.TabIndex = 2;
+            this.tabConsultarCategoria.Text = "Consultar categoria";
+            this.tabConsultarCategoria.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Location = new System.Drawing.Point(16, 62);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.Size = new System.Drawing.Size(446, 270);
+            this.dataGridView2.TabIndex = 3;
+            this.dataGridView2.Text = "dataGridView2";
+            // 
+            // btnConsultarCategoria2
+            // 
+            this.btnConsultarCategoria2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnConsultarCategoria2.Location = new System.Drawing.Point(296, 20);
+            this.btnConsultarCategoria2.Name = "btnConsultarCategoria2";
+            this.btnConsultarCategoria2.Size = new System.Drawing.Size(80, 23);
+            this.btnConsultarCategoria2.TabIndex = 2;
+            this.btnConsultarCategoria2.Text = "Consultar";
+            this.btnConsultarCategoria2.UseVisualStyleBackColor = true;
+            // 
+            // btnVerTodasCategorias
+            // 
+            this.btnVerTodasCategorias.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnVerTodasCategorias.Location = new System.Drawing.Point(382, 20);
+            this.btnVerTodasCategorias.Name = "btnVerTodasCategorias";
+            this.btnVerTodasCategorias.Size = new System.Drawing.Size(80, 23);
+            this.btnVerTodasCategorias.TabIndex = 2;
+            this.btnVerTodasCategorias.Text = "Ver todos";
+            this.btnVerTodasCategorias.UseVisualStyleBackColor = true;
+            // 
+            // lblIdCategoria3
+            // 
+            this.lblIdCategoria3.AutoSize = true;
+            this.lblIdCategoria3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblIdCategoria3.Location = new System.Drawing.Point(16, 21);
+            this.lblIdCategoria3.Name = "lblIdCategoria3";
+            this.lblIdCategoria3.Size = new System.Drawing.Size(86, 17);
+            this.lblIdCategoria3.TabIndex = 0;
+            this.lblIdCategoria3.Text = "Id_categoria:";
+            // 
+            // txtIdCategoria3
+            // 
+            this.txtIdCategoria3.Location = new System.Drawing.Point(108, 20);
+            this.txtIdCategoria3.Name = "txtIdCategoria3";
+            this.txtIdCategoria3.Size = new System.Drawing.Size(182, 23);
+            this.txtIdCategoria3.TabIndex = 1;
             // 
             // dataGridView1
             // 
@@ -450,237 +672,15 @@
             // 
             // tabControl1
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage3);
+            this.tabControl1.Controls.Add(this.tabInsertarCategoria);
+            this.tabControl1.Controls.Add(this.tabUpdateCategoria);
+            this.tabControl1.Controls.Add(this.tabConsultarCategoria);
             this.tabControl1.Location = new System.Drawing.Point(12, 12);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 2;
             this.tabControl1.Size = new System.Drawing.Size(491, 386);
             this.tabControl1.TabIndex = 0;
             this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
-            // 
-            // txtDescripcionCategoria
-            // 
-            this.txtDescripcionCategoria.Location = new System.Drawing.Point(148, 125);
-            this.txtDescripcionCategoria.Name = "txtDescripcionCategoria";
-            this.txtDescripcionCategoria.Size = new System.Drawing.Size(182, 25);
-            this.txtDescripcionCategoria.TabIndex = 1;
-            // 
-            // txtNombreCategoria
-            // 
-            this.txtNombreCategoria.Location = new System.Drawing.Point(148, 73);
-            this.txtNombreCategoria.Name = "txtNombreCategoria";
-            this.txtNombreCategoria.Size = new System.Drawing.Size(182, 25);
-            this.txtNombreCategoria.TabIndex = 1;
-            // 
-            // txtIdCategoria
-            // 
-            this.txtIdCategoria.Location = new System.Drawing.Point(148, 21);
-            this.txtIdCategoria.Name = "txtIdCategoria";
-            this.txtIdCategoria.Size = new System.Drawing.Size(182, 25);
-            this.txtIdCategoria.TabIndex = 1;
-            // 
-            // lblDescripcionCategoria
-            // 
-            this.lblDescripcionCategoria.AutoSize = true;
-            this.lblDescripcionCategoria.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblDescripcionCategoria.Location = new System.Drawing.Point(32, 128);
-            this.lblDescripcionCategoria.Name = "lblDescripcionCategoria";
-            this.lblDescripcionCategoria.Size = new System.Drawing.Size(84, 17);
-            this.lblDescripcionCategoria.TabIndex = 0;
-            this.lblDescripcionCategoria.Text = "Descripcion:";
-            // 
-            // lblNombreCategoria
-            // 
-            this.lblNombreCategoria.AutoSize = true;
-            this.lblNombreCategoria.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblNombreCategoria.Location = new System.Drawing.Point(53, 76);
-            this.lblNombreCategoria.Name = "lblNombreCategoria";
-            this.lblNombreCategoria.Size = new System.Drawing.Size(62, 17);
-            this.lblNombreCategoria.TabIndex = 0;
-            this.lblNombreCategoria.Text = "Nombre:";
-            // 
-            // lblIdCategoria
-            // 
-            this.lblIdCategoria.AutoSize = true;
-            this.lblIdCategoria.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblIdCategoria.Location = new System.Drawing.Point(29, 24);
-            this.lblIdCategoria.Name = "lblIdCategoria";
-            this.lblIdCategoria.Size = new System.Drawing.Size(86, 17);
-            this.lblIdCategoria.TabIndex = 0;
-            this.lblIdCategoria.Text = "Id_categoria:";
-            // 
-            // txtBorradoCategoria
-            // 
-            this.txtBorradoCategoria.Location = new System.Drawing.Point(148, 177);
-            this.txtBorradoCategoria.Name = "txtBorradoCategoria";
-            this.txtBorradoCategoria.Size = new System.Drawing.Size(182, 25);
-            this.txtBorradoCategoria.TabIndex = 1;
-            // 
-            // lblBorradoCategoria
-            // 
-            this.lblBorradoCategoria.AutoSize = true;
-            this.lblBorradoCategoria.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblBorradoCategoria.Location = new System.Drawing.Point(55, 180);
-            this.lblBorradoCategoria.Name = "lblBorradoCategoria";
-            this.lblBorradoCategoria.Size = new System.Drawing.Size(61, 17);
-            this.lblBorradoCategoria.TabIndex = 0;
-            this.lblBorradoCategoria.Text = "Borrado:";
-            // 
-            // btnInsertarCategoria
-            // 
-            this.btnInsertarCategoria.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnInsertarCategoria.Location = new System.Drawing.Point(192, 218);
-            this.btnInsertarCategoria.Name = "btnInsertarCategoria";
-            this.btnInsertarCategoria.Size = new System.Drawing.Size(80, 30);
-            this.btnInsertarCategoria.TabIndex = 2;
-            this.btnInsertarCategoria.Text = "Insertar";
-            this.btnInsertarCategoria.UseVisualStyleBackColor = true;
-            // 
-            // txtIdCategoria2
-            // 
-            this.txtIdCategoria2.Location = new System.Drawing.Point(152, 26);
-            this.txtIdCategoria2.Name = "txtIdCategoria2";
-            this.txtIdCategoria2.Size = new System.Drawing.Size(182, 23);
-            this.txtIdCategoria2.TabIndex = 1;
-            // 
-            // lblIdCategoria2
-            // 
-            this.lblIdCategoria2.AutoSize = true;
-            this.lblIdCategoria2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblIdCategoria2.Location = new System.Drawing.Point(33, 29);
-            this.lblIdCategoria2.Name = "lblIdCategoria2";
-            this.lblIdCategoria2.Size = new System.Drawing.Size(86, 17);
-            this.lblIdCategoria2.TabIndex = 0;
-            this.lblIdCategoria2.Text = "Id_categoria:";
-            // 
-            // btnConsultarCategoria
-            // 
-            this.btnConsultarCategoria.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnConsultarCategoria.Location = new System.Drawing.Point(203, 64);
-            this.btnConsultarCategoria.Name = "btnConsultarCategoria";
-            this.btnConsultarCategoria.Size = new System.Drawing.Size(80, 30);
-            this.btnConsultarCategoria.TabIndex = 2;
-            this.btnConsultarCategoria.Text = "Consultar";
-            this.btnConsultarCategoria.UseVisualStyleBackColor = true;
-            // 
-            // lblBorradoCategoria2
-            // 
-            this.lblBorradoCategoria2.AutoSize = true;
-            this.lblBorradoCategoria2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblBorradoCategoria2.Location = new System.Drawing.Point(59, 217);
-            this.lblBorradoCategoria2.Name = "lblBorradoCategoria2";
-            this.lblBorradoCategoria2.Size = new System.Drawing.Size(61, 17);
-            this.lblBorradoCategoria2.TabIndex = 0;
-            this.lblBorradoCategoria2.Text = "Borrado:";
-            // 
-            // txtBorradoCategoria2
-            // 
-            this.txtBorradoCategoria2.Location = new System.Drawing.Point(152, 214);
-            this.txtBorradoCategoria2.Name = "txtBorradoCategoria2";
-            this.txtBorradoCategoria2.Size = new System.Drawing.Size(182, 23);
-            this.txtBorradoCategoria2.TabIndex = 1;
-            // 
-            // lblNombreCategoria2
-            // 
-            this.lblNombreCategoria2.AutoSize = true;
-            this.lblNombreCategoria2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblNombreCategoria2.Location = new System.Drawing.Point(57, 113);
-            this.lblNombreCategoria2.Name = "lblNombreCategoria2";
-            this.lblNombreCategoria2.Size = new System.Drawing.Size(62, 17);
-            this.lblNombreCategoria2.TabIndex = 0;
-            this.lblNombreCategoria2.Text = "Nombre:";
-            // 
-            // txtDescripcionCategoria2
-            // 
-            this.txtDescripcionCategoria2.Location = new System.Drawing.Point(152, 162);
-            this.txtDescripcionCategoria2.Name = "txtDescripcionCategoria2";
-            this.txtDescripcionCategoria2.Size = new System.Drawing.Size(182, 23);
-            this.txtDescripcionCategoria2.TabIndex = 1;
-            // 
-            // lblDescripcionCategoria2
-            // 
-            this.lblDescripcionCategoria2.AutoSize = true;
-            this.lblDescripcionCategoria2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblDescripcionCategoria2.Location = new System.Drawing.Point(36, 165);
-            this.lblDescripcionCategoria2.Name = "lblDescripcionCategoria2";
-            this.lblDescripcionCategoria2.Size = new System.Drawing.Size(84, 17);
-            this.lblDescripcionCategoria2.TabIndex = 0;
-            this.lblDescripcionCategoria2.Text = "Descripcion:";
-            // 
-            // txtNombreCategoria2
-            // 
-            this.txtNombreCategoria2.Location = new System.Drawing.Point(152, 110);
-            this.txtNombreCategoria2.Name = "txtNombreCategoria2";
-            this.txtNombreCategoria2.Size = new System.Drawing.Size(182, 23);
-            this.txtNombreCategoria2.TabIndex = 1;
-            // 
-            // btnEliminarCategoria
-            // 
-            this.btnEliminarCategoria.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnEliminarCategoria.Location = new System.Drawing.Point(254, 252);
-            this.btnEliminarCategoria.Name = "btnEliminarCategoria";
-            this.btnEliminarCategoria.Size = new System.Drawing.Size(80, 30);
-            this.btnEliminarCategoria.TabIndex = 3;
-            this.btnEliminarCategoria.Text = "Eliminar";
-            this.btnEliminarCategoria.UseVisualStyleBackColor = true;
-            // 
-            // btnActualizarCategoria
-            // 
-            this.btnActualizarCategoria.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnActualizarCategoria.Location = new System.Drawing.Point(152, 252);
-            this.btnActualizarCategoria.Name = "btnActualizarCategoria";
-            this.btnActualizarCategoria.Size = new System.Drawing.Size(80, 30);
-            this.btnActualizarCategoria.TabIndex = 3;
-            this.btnActualizarCategoria.Text = "Actualizar";
-            this.btnActualizarCategoria.UseVisualStyleBackColor = true;
-            // 
-            // txtIdCategoria3
-            // 
-            this.txtIdCategoria3.Location = new System.Drawing.Point(108, 20);
-            this.txtIdCategoria3.Name = "txtIdCategoria3";
-            this.txtIdCategoria3.Size = new System.Drawing.Size(182, 23);
-            this.txtIdCategoria3.TabIndex = 1;
-            // 
-            // lblIdCategoria3
-            // 
-            this.lblIdCategoria3.AutoSize = true;
-            this.lblIdCategoria3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblIdCategoria3.Location = new System.Drawing.Point(16, 21);
-            this.lblIdCategoria3.Name = "lblIdCategoria3";
-            this.lblIdCategoria3.Size = new System.Drawing.Size(86, 17);
-            this.lblIdCategoria3.TabIndex = 0;
-            this.lblIdCategoria3.Text = "Id_categoria:";
-            // 
-            // btnVerTodasCategorias
-            // 
-            this.btnVerTodasCategorias.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnVerTodasCategorias.Location = new System.Drawing.Point(382, 20);
-            this.btnVerTodasCategorias.Name = "btnVerTodasCategorias";
-            this.btnVerTodasCategorias.Size = new System.Drawing.Size(80, 23);
-            this.btnVerTodasCategorias.TabIndex = 2;
-            this.btnVerTodasCategorias.Text = "Ver todos";
-            this.btnVerTodasCategorias.UseVisualStyleBackColor = true;
-            // 
-            // btnConsultarCategoria2
-            // 
-            this.btnConsultarCategoria2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnConsultarCategoria2.Location = new System.Drawing.Point(296, 20);
-            this.btnConsultarCategoria2.Name = "btnConsultarCategoria2";
-            this.btnConsultarCategoria2.Size = new System.Drawing.Size(80, 23);
-            this.btnConsultarCategoria2.TabIndex = 2;
-            this.btnConsultarCategoria2.Text = "Consultar";
-            this.btnConsultarCategoria2.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView2
-            // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(16, 62);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(446, 270);
-            this.dataGridView2.TabIndex = 3;
-            this.dataGridView2.Text = "dataGridView2";
             // 
             // GestionDeCategorias
             // 
@@ -690,22 +690,22 @@
             this.Controls.Add(this.tabControl1);
             this.Name = "GestionDeCategorias";
             this.Text = "Gestion de categorias";
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
-            this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage3.PerformLayout();
+            this.tabInsertarCategoria.ResumeLayout(false);
+            this.tabInsertarCategoria.PerformLayout();
+            this.tabUpdateCategoria.ResumeLayout(false);
+            this.tabUpdateCategoria.PerformLayout();
+            this.tabConsultarCategoria.ResumeLayout(false);
+            this.tabConsultarCategoria.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tabControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabInsertarCategoria;
         private System.Windows.Forms.MaskedTextBox maskedTextBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox1;
@@ -719,7 +719,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TabPage tabUpdateCategoria;
         private System.Windows.Forms.MaskedTextBox maskedTextBox2;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
@@ -735,7 +735,7 @@
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.TabPage tabConsultarCategoria;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;

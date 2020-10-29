@@ -23,6 +23,27 @@ namespace PAV
             toolStripStatusLabel1.Text = "Usuario: " + login.usuarioMostrar.ToUpper() + " | Perfil: " + login.perfilMostrar;
         }
 
-        
+        private void MenuOpsGestionCateg_Click(object sender, EventArgs e)
+        {
+            GestionDeCategorias gestionDeCategorias = new GestionDeCategorias();
+            gestionDeCategorias.ShowDialog();
+        }
+
+        private void MenuOpsGestionCurs_Click(object sender, EventArgs e)
+        {
+            GestionDeCursos gestionDeCursos = new GestionDeCursos();
+            gestionDeCursos.ShowDialog();
+        }
+
+        private void MenuOpcGestionObjet_Click(object sender, EventArgs e)
+        {
+            GestionDeObjetivos gestionDeObjetivos = new GestionDeObjetivos();
+            gestionDeObjetivos.ShowDialog();
+        }
+
+        private void MenuOpsSalir_Click(object sender, EventArgs e)
+        {
+            Application.ExitThread();
+        }
     }
 }
